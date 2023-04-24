@@ -20,7 +20,7 @@ export default {
   },
   mounted() {
     axios
-        .get('http://localhost:8080/')
+        .get('http://44.215.203.222:8080/')
         .then(response => {
           this.info = response;
         })
