@@ -7,7 +7,7 @@ public class HelloController {
 
 	@GetMapping("/")
 	public String index() {
-		return "Greetings from Spring boot!";
+		return "I am better than Chat GPT!!";
 	}
 
 	@GetMapping("/hello/{name}")
